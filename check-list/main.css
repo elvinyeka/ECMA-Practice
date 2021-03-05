@@ -1,0 +1,106 @@
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+    .frame {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 400px;
+        height: 400px;
+        border-radius: 2px;
+        transform: translate(-50%, -50%);
+        box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        background: linear-gradient(45deg, #FAA130, #FDC935);
+        color: #333;
+        font-family: 'Open Sans', Helvetica, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .check-list__box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 245px;
+        height: 280px;
+        background: #fff;
+        border-radius: 2px;
+        transform: translate(-50%, -50%);
+        box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.4);
+    }
+    
+    .check-list__header {
+        text-align: center;
+        color: #497081;
+        border-bottom: 1px solid #cedce2;
+        margin: 0 30px;
+        padding: 20px 0;
+    }
+    
+    .check-list__header-title {
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    .check-list__header-desc {
+        margin: 0;
+        font-size: 12px;
+    }
+    
+    ul {
+        margin: 10px 30px;
+        padding: 0 5px;
+        list-style: none;
+    }
+    
+    li {
+        position: relative;
+        display: block;
+        margin: 25px 0;
+        height: 14px;
+    }
+    
+    input {
+        display: none;
+    }
+    
+    .text {
+        float: left;
+        cursor: pointer;
+        color: #497081;
+        font-size: 14px;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .circle {
+        position: relative;
+        float: right;
+        cursor: pointer;
+        width: 15px;
+        height: 15px;
+        box-sizing: border-box;
+        border: 1px solid #497081;
+        border-radius: 50%;
+        z-index: 2;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .check-icon {
+        position: absolute;
+        right: 0;
+        top: 2px;
+        fill: none;
+        transition: all 0.3s ease-in-out;
+        /* fill: #497081; */
+    }
+    
+    input:checked~.text {
+        color: #bed3dd;
+    }
+    
+    input:checked~.check-icon {
+        fill: #497081;
+    }
+    
+    input:checked~.circle {
+        border-color: #fff;
+    }
