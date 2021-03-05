@@ -1,12 +1,17 @@
 .container {
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
     width: 400px;
-    margin: 130px auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 2px;
     overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.4) 1px 2px 10px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
+
+.center-red-box {}
 
 input {
     display: none;
