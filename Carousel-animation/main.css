@@ -1,0 +1,125 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #5A717B;
+}
+
+.center {
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    transform-style: preserve-3d;
+    perspective: 60px;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140px;
+    height: 140px;
+    top: 100px;
+    left: 120px;
+    background: #fff;
+    border-radius: 2px;
+    transform: translate(-50%, -50%);
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.box-1 {
+    animation: carousel-1 5s ease-in-out infinite;
+}
+
+@keyframes carousel-1 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    33% {
+        transform: translate3d(150px, 0, -50px);
+    }
+    66% {
+        transform: translate3d(-150px, 0, -50px);
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.box-2 {
+    animation: carousel-2 5s ease-in-out infinite;
+}
+
+@keyframes carousel-2 {
+    0% {
+        transform: translate3d(150px, 0, -50px);
+    }
+    33% {
+        transform: translate3d(-150px, 0, -50px);
+    }
+    66% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(150px, 0, -50px);
+    }
+}
+
+.box-3 {
+    animation: carousel-3 5s ease-in-out infinite;
+}
+
+@keyframes carousel-3 {
+    0% {
+        transform: translate3d(-150px, 0, -50px);
+    }
+    33% {
+        transform: translate3d(0, 0, 0);
+    }
+    66% {
+        transform: translate3d(150px, 0, -50px);
+    }
+    100% {
+        transform: translate3d(-150px, 0, -50px);
+    }
+}
+
+.box__header {
+    width: 100%;
+    height: 40px;
+    background-color: #F9982D;
+}
+
+.line {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 4px;
+    background-color: #e9e9e9;
+}
+
+.line-2 {
+    width: 110px;
+}
+
+.line-3 {
+    width: 115px;
+}
+
+.line-4 {
+    width: 105px;
+}
+
+.line-5 {
+    width: 90px;
+}
