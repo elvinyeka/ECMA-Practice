@@ -10,6 +10,12 @@
   ### Carousel-animation
   Here my pen what i made [https://codepen.io/ElvinYeka/pen/VwmGbqd?editors=1100](https://codepen.io/ElvinYeka/pen/VwmGbqd?editors=1100) 
   
+  ### Grid-Gallery-1
+  Here my pen what i made [https://codepen.io/ElvinYeka/pen/abBQMOB](https://codepen.io/ElvinYeka/pen/abBQMOB) 
+  
+  ### Grid-Gallery-2
+  Here my pen what i made [https://codepen.io/ElvinYeka/pen/WNoYmLv](https://codepen.io/ElvinYeka/pen/WNoYmLv) 
+  
   ### Table
   Here my pen what i made [https://codepen.io/ElvinYeka/pen/oNYPjYJ](https://codepen.io/ElvinYeka/pen/oNYPjYJ) 
  
